@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-`mhartl_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
+`wsmyth_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
 
 ```
 $ irb
