@@ -1,6 +1,6 @@
 require "wsmyth_palindrome/version"
 
-class String 
+module WsmythPalindrome 
 
 	# Returns true for a palindrome, false otherwise.
 	def palindrome?
@@ -12,7 +12,14 @@ class String
 
 		# Returns content for palindrome testing
 		def processed_content
-			self.scan(/[a-z]/i).join.downcase
+			to_s.scan(/[a-za*]/i).join.downcase
 		end
-	
+end
+
+class String
+	include WsmythPalindrome
+end
+
+class Integer
+	include WsmythPalindrome
 end
