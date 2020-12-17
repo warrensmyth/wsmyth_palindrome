@@ -14,5 +14,5 @@ class String
 		def processed_content
 			self.scan(/[a-z]/i).join.downcase
 		end
-	end
+	
 end
