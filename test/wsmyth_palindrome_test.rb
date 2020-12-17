@@ -18,7 +18,4 @@ class WsmythPalindromeTest < Minitest::Test
   	assert "Madam, I'm Adam".palindrome?
   end
 
-  def test_letters
-  	assert_equal "MadamImAdam", "Madam, I'm Adam".letters
-  end
 end
