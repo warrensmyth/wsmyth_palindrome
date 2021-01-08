@@ -26,4 +26,8 @@ class WsmythPalindromeTest < Minitest::Test
   	assert 12321.palindrome?
   end
 
+  def test_space_not_palindrome
+    refute "".palindrome?
+  end
+
 end
